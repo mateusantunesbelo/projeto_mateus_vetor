@@ -10,6 +10,7 @@ function adicionarValor() {
   celula.textContent = valor;
 
   document.getElementById('valor').value = '';
+  document.getElementById('valor').focus();
 }
 
 function mostrarPares() {
